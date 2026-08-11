@@ -570,7 +570,8 @@ stepping in and out as handling a bad asset position to secure the fund health a
     },
     addBlocks = ()=>{
         const panel = document.getElementById('panel');
-		
+        const vids = '';
+/*		
 		const vids = `<div class="vid">
 <div>
 <embed src="https://docs.google.com/file/d/1OY46AiLuqPmG4PJScHkDyuAQZ7xETApT/preview">
@@ -581,7 +582,7 @@ stepping in and out as handling a bad asset position to secure the fund health a
 <div>About Me Presentation (2024)</div>
 </div>
 </div>`;
-/*
+
 mainContent = {
     body,
     href,
