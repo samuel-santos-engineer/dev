@@ -29,6 +29,32 @@ const CtMain = function(){
     showCase = {
         projs: [
             {
+                tit: 'AI-First Product Development, <b>AIQuantTradingResearch — AI-Assisted Quantitative Research Platform</b>',
+                projs: [
+                    {p:'',u:'https://github.com/samuel-santos-engineer/AIQuantTradingResearch/',k:'',n:'AIQuantTradingResearch - Assisted Quantitative Research Platform',tags:'Codex,Copilot,C#,.NET,Python,T-SQL,SQLite,GitHub,HTML5,CSS,Javascript,jQuery,WebService API,Subversion',d:`
+                    <div class="accord-subtit">2026-Present as AI Architect Engineer</div>
+                    <br>
+    <p>Building a production-oriented quantitative research platform from the ground up using C#/.NET and a disciplined AI-assisted engineering workflow. The current platform implements a real market-data vertical slice: historical observations are acquired from Twelve Data, processed through clean Application/Domain boundaries, and durably persisted to SQLite.</p>
+
+    <p>Release 1.1 demonstrates immutable history, deterministic retrieval, idempotent writes, conflict detection, atomic operations, data fidelity, and controlled failure handling.</p>
+
+    <p>Engineering quality is enforced through 145 automated tests, including 13 executable architecture tests, zero build warnings/errors, and automated repository verification. Gitleaks secret scanning is integrated into the verification pipeline to help prevent credentials, API keys, and tokens from entering the repository.</p>
+
+    <p>The project applies AI FinOps by selecting Codex models according to reasoning complexity, risk, and cost:<br>
+    • GPT-5.6 Sol — architecture, complex design, cross-layer reasoning, and high-consequence engineering.<br>
+    • GPT-5.6 Terra — implementation, test engineering, refactoring, and moderately complex work.<br>
+    • GPT-5.6 Luna — constrained documentation, validation, acceptance, and lower-risk tasks.</p>
+
+    <p>GitHub Copilot supports day-to-day coding productivity, while ChatGPT and Gemini provide complementary design and architecture advisory. Engineering decisions remain governed by architecture, standards, tests, and executable validation.</p>
+
+    <p>Reproducible guides demonstrate real provider acquisition, durable persistence, idempotency, data integrity, and restart recovery.</p>
+
+                    <p><img class="pcb-logo" src="assets/img/AIQuantTradingResearch/AIQuantTradingResearchBanner-01.jpg" alt="AIQuantTradingResearch logo" /></p>
+                    `
+                    }
+                ]
+            },
+            {
                 tit: 'Tech Lead Product and Site Reliability Engineering, DevOps Backend Development, <b>Elasticsearch workload tool Implementation for performance benchmark evaluation</b>',
                 projs: [
                     {p:'',u:'https://microsoft.github.io/VirtualClient/docs/overview/',k:'',n:'Virtual Client Platform',tags:'C#,.NET,Azure Data Explore (ADX),Kusto (KQL),Virtual Client Platform,Juno Orchestrator,Python,Bash,Powershell,Linux',d:`
