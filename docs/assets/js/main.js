@@ -342,7 +342,7 @@ ${buildImagesPanel('pcb',
 
     const data = {
         skills: [
-            'C#, <strong>.NET 8</strong>, .NET Framework, Entity Framework',
+            'C#, <strong>.NET</strong>, .NET Framework, Entity Framework',
             'Azure Data Explorer (ADX), <b>Kusto (KQL)</b>',
             'MS SQL Server &amp; T-SQL, PostgreSQL &amp; PL/pgSQL',
             'Cosmos DB, MongoDB/Azure & EF Core, DynamoDB/AWS & Object Model',

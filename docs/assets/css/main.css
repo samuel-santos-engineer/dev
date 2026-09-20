@@ -1036,6 +1036,16 @@ table tfoot td {
   line-height: 1.5;
 }
 
+.ai-first-label {
+  font-size: 10px;
+}
+
+.aiquanttradingresearch-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
