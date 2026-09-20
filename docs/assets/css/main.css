@@ -1483,6 +1483,10 @@ a.newer-posts:hover {
             border-radius: 100%;
     margin-bottom: 10px;
   }
+  .aiquanttradingresearch-icon {
+    width: 40px;
+    height: 40px;
+  }
   .content-box {
     padding: 20px 10px;
     display: -webkit-box;
@@ -1502,9 +1506,15 @@ a.newer-posts:hover {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
+  .under-construction {
+    width: 80px;
+    height: 80px;
+  }
+  /*
   .contact-title, .copyright {
     display: none;
   }
+    */
 }
 
 /* Extra Small Devices, Phones */
