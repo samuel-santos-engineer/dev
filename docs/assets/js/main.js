@@ -31,23 +31,27 @@ const CtMain = function(){
             {
                 tit: 'AI-First Product Development, <b>AIQuantTradingResearch — AI-Assisted Quantitative Research Platform</b>',
                 projs: [
-                    {p:'',u:'https://github.com/samuel-santos-engineer/AIQuantTradingResearch/',k:'',n:'AIQuantTradingResearch - Assisted Quantitative Research Platform',tags:'Codex,Copilot,C#,.NET,Python,T-SQL,SQLite,GitHub,HTML5,CSS,Javascript,jQuery,WebService API,Subversion',d:`
+                    {p:'',u:'https://github.com/samuel-santos-engineer/AIQuantTradingResearch/',k:'',n:'AIQuantTradingResearch - Assisted Quantitative Research Platform',tags:'Codex,Copilot,C#,.NET 10,Python,T-SQL,SQLite,GitHub,HTML5,CSS,Javascript,SQLite,Azure,Docker,Linux,Gitleaks,OpenTelemetry,Streamlit',d:`
                     <div class="accord-subtit">2026-Present as AI Architect Engineer</div>
                     <br>
-    <p>Building a production-oriented quantitative research platform from the ground up using C#/.NET and a disciplined AI-assisted engineering workflow. The current platform implements a real market-data vertical slice: historical observations are acquired from Twelve Data, processed through clean Application/Domain boundaries, and durably persisted to SQLite.</p>
+<p>Built under strict governance guardrails and zero-cost constraints, combining C#, .NET 10, Python, SQLite, and Docker with executable quality gates, incremental delivery and technical transparency.</p>
 
-    <p>Release 1.1 demonstrates immutable history, deterministic retrieval, idempotent writes, conflict detection, atomic operations, data fidelity, and controlled failure handling.</p>
+<p>Features Released in Production Environment:<br>
+• Resilience strategy deploying across two Azure App Service regions<br>
+• Provider-independent historical market-data architecture visualization, and Vike provenance.<br>
+• Provider Abstraction &amp; Isolation using Twelve Data as the primary external real time market data provider for data ingestion.<br>
+• Azure App Service Linux F1 reference deployment ($0.00 cost boundary) with public GHCR images, persistent /home, and SQLite schema v4 in DELETE journal mode.<br>
+• End-to-end OpenTelemetry pipeline observability with Streamlit System Health diagnostics.<br>
+• Canonical .NET visualization read model with atomic JSON handoffs and truthful state management.<br>
+• Isolated Python 3.13 scientific-stack tooling with JSON-over-stdio interoperability.<br>
+• Bounded evidence discovery with binary-sorted collections, durable schema v3 persistence, math feature extraction over immutable states, and structured 5-stage research pipeline orchestration.</p>
 
-    <p>Engineering quality is enforced through 145 automated tests, including 13 executable architecture tests, zero build warnings/errors, and automated repository verification. Gitleaks secret scanning is integrated into the verification pipeline to help prevent credentials, API keys, and tokens from entering the repository.</p>
+<p>The project applies AI FinOps by selecting Codex models according to reasoning complexity, risk, and cost:<br>
+• GPT-5.6 Sol: architecture, complex design, cross-layer reasoning, and high-consequence engineering.<br>
+• GPT-5.6 Terra: implementation, test engineering, refactoring, and moderately complex work.<br>
+• GPT-5.6 Luna: constrained documentation, validation, acceptance, and lower-risk tasks.</p>
 
-    <p>The project applies AI FinOps by selecting Codex models according to reasoning complexity, risk, and cost:<br>
-    • GPT-5.6 Sol — architecture, complex design, cross-layer reasoning, and high-consequence engineering.<br>
-    • GPT-5.6 Terra — implementation, test engineering, refactoring, and moderately complex work.<br>
-    • GPT-5.6 Luna — constrained documentation, validation, acceptance, and lower-risk tasks.</p>
-
-    <p>GitHub Copilot supports day-to-day coding productivity, while ChatGPT and Gemini provide complementary design and architecture advisory. Engineering decisions remain governed by architecture, standards, tests, and executable validation.</p>
-
-    <p>Reproducible guides demonstrate real provider acquisition, durable persistence, idempotency, data integrity, and restart recovery.</p>
+<p>GitHub Copilot supports daily coding productivity, while ChatGPT and Gemini provide complementary architectural advisory. Reproducible guides demonstrate real provider acquisition, durable persistence, idempotency, data integrity, and restart recovery. All engineering decisions remain governed by architecture, standards, tests, executable validation, and my active human-in-the-loop coordination across every development cycle.</p>
 
                     <p><img class="pcb-logo" src="assets/img/AIQuantTradingResearch/AIQuantTradingResearchBanner-01.jpg" alt="AIQuantTradingResearch logo" /></p>
                     `
