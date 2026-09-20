@@ -1046,6 +1046,12 @@ table tfoot td {
   margin-right: 5px;
 }
 
+.aiquanttradingresearch-lnk {
+  color: inherit;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
