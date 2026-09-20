@@ -1484,8 +1484,8 @@ a.newer-posts:hover {
     margin-bottom: 10px;
   }
   .aiquanttradingresearch-icon {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
   }
   .content-box {
     padding: 20px 10px;
