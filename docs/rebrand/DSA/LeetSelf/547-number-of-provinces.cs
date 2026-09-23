@@ -47,7 +47,6 @@ merge
             }
             foreach(var r in removeProvinces)
                 map.Remove(r);
-            Dictionary<int, int> counts = new Dictionary<int, int>();
             HashSet<int> exists = new HashSet<int>();
             HashSet<int> dups = new HashSet<int>();
             foreach(var m in map)
@@ -63,9 +62,7 @@ merge
             {
                 if (!map.ContainsKey(neighbor))
                 {
-                    var ms = new HashSet<int>();
-                    ms.Add(neighbor);
-                    map.Add(neighbor, ms);
+                    map.Add(neighbor, new HashSet<int>(){ neighbor });
                 }
                 provinces.Enqueue(neighbor);
             }
