@@ -31,8 +31,6 @@ public class Solution {
 
         if (mem.TryGetValue(memKey, out int maxSum)) return maxSum;
 
-        maxSum = 0;
-
         if (onNode)
         {
             maxSum =
