@@ -71,6 +71,12 @@ public class LRUCache {
     {
         link.prev.next = link.next;
         link.next.prev = link.prev;
+/*
+        A > B > C
+        B.prev = A ; A.next = C ; B.prev.next = B.next
+        B.next = C ; C.prev = A ; B.next.prev = B.prev
+        A > C
+*/
     }
 
     void AddFirst(CacheLink link)
@@ -79,6 +85,15 @@ public class LRUCache {
         link.prev = head;
         head.next.prev = link;
         head.next = link;
+/*
+        A = link
+        head > B > C
+        head > A > B > C
+        head.next = A
+        A.prev = head
+        A.next = B ; A.next = head.next
+        B.prev = A ; head.next.prev = A
+*/
     }
 
     static string PrintLink(CacheLink link)
